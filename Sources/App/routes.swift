@@ -13,8 +13,8 @@ public func routes(_ router: Router) throws {
     }
 
     // Example of configuring a controller
-    let todoController = TodoController()
-    router.get("todos", use: todoController.index)
-    router.post("todos", use: todoController.create)
-    router.delete("todos", Todo.parameter, use: todoController.delete)
+    let ridesController = RidesController()
+    router.get("rides", use: ridesController.index)
+    router.post("rides", use: ridesController.create)
+    router.delete("rides", Ride.parameter, use: ridesController.delete)
 }

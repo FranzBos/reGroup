@@ -1,0 +1,4 @@
+module CNIOAtomics {
+    umbrella "/Users/francesco/Works/Fubikes/regroup/.build/checkouts/swift-nio.git--8292239314944050210/Sources/CNIOAtomics/include"
+    export *
+}
